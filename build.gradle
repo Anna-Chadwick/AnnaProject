@@ -1,0 +1,33 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'org.owasp:dependency-check-gradle:7.2.1'
+    }
+}
+
+
+plugins {
+    id 'java'
+    id 'maven-publish'
+}
+
+
+dependencies {
+    testImplementation group : 'junit', name : 'junit', version : '4.13.2'
+}
+
+// the GAV of the generated POM can be set here
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId = 'edu.bbte.gradleex.mavenplugin'
+            artifactId = 'gradleex-mavenplugin'
+            version = '1.0.0-SNAPSHOT'
+            from components.java
+        }
+    }
+}
+
+apply plugin: 'org.owasp.dependencycheck'

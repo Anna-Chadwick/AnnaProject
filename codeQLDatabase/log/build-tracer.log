@@ -1,0 +1,552 @@
+[T 00:16:28 21570] CodeQL CLI version 2.10.5
+[T 00:16:28 21570] Initializing tracer in Lua mode.
+[T 00:16:28 21570] Initialising tags...
+[T 00:16:28 21570] ID set to 0000000000005442_0000000000000001 (parent root)
+[T 00:16:28 21570] Initializing tracer in Lua mode.
+[T 00:16:28 21570] Initialising tags...
+[T 00:16:28 21570] ID set to 0000000000005442_0000000000000002 (parent root)
+[T 00:16:28 21570] Warning: SEMMLE_EXEC and SEMMLE_EXECP not set. Falling back to path lookup on argv[0].
+[T 00:16:28 21570] ==== Candidate to intercept: /Users/tinny/Academics/MastersProject/CodeQL/codeql/tools/osx64/runner-osx (canonical: /Users/tinny/Academics/MastersProject/CodeQL/codeql/tools/osx64/runner-osx) ====
+[T 00:16:28 21570] Lua: === Intercepted call to /users/tinny/academics/mastersproject/codeql/codeql/tools/osx64/runner-osx ===
+[T 00:16:28 21570] Executing the following tracer actions:
+[T 00:16:28 21570] Tracer actions:
+[T 00:16:28 21570] pre_invocations(0)
+[T 00:16:28 21570] post_invocations(0)
+[T 00:16:28 21570] trace_languages(1): [java]
+[T 00:16:28 21571] Attempting to switch stdout/stderr to 3...
+/Users/tinny/Academics/MastersProject/RunningExample/psychic-signatures-master/codeQLDatabase/working/copy-root/000001F5/bin/bash.semmle.00005442.slice.x86_64: replacing existing signature
+[T 00:16:29 21570] Initializing tracer in Lua mode.
+[T 00:16:29 21570] Initialising tags...
+[T 00:16:29 21570] ID set to 0000000000005442_0000000000000003 (parent 0000000000005442_0000000000000002)
+[T 00:16:29 21570] ==== Candidate to intercept: /opt/homebrew/bin/gradle (canonical: /opt/homebrew/Cellar/gradle/7.5.1_1/bin/gradle) ====
+[T 00:16:29 21570] Lua: === Intercepted call to /opt/homebrew/cellar/gradle/7.5.1_1/bin/gradle ===
+[T 00:16:29 21570] Executing the following tracer actions:
+[T 00:16:29 21570] Tracer actions:
+[T 00:16:29 21570] pre_invocations(0)
+[T 00:16:29 21570] post_invocations(0)
+[T 00:16:29 21570] trace_languages(1): [java]
+[T 00:16:29 21575] Attempting to switch stdout/stderr to 3...
+/Users/tinny/Academics/MastersProject/RunningExample/psychic-signatures-master/codeQLDatabase/working/copy-root/000001F5/bin/sh.semmle.00005442.slice.x86_64: replacing existing signature
+[T 00:16:29 21570] Initializing tracer in Lua mode.
+[T 00:16:29 21570] Initialising tags...
+[T 00:16:29 21570] ID set to 0000000000005442_0000000000000004 (parent 0000000000005442_0000000000000003)
+[T 00:16:29 21570] ==== Candidate to intercept: /opt/homebrew/Cellar/gradle/7.5.1_1/libexec/bin/gradle (canonical: /opt/homebrew/Cellar/gradle/7.5.1_1/libexec/bin/gradle) ====
+[T 00:16:29 21570] Lua: === Intercepted call to /opt/homebrew/cellar/gradle/7.5.1_1/libexec/bin/gradle ===
+[T 00:16:29 21570] Executing the following tracer actions:
+[T 00:16:29 21570] Tracer actions:
+[T 00:16:29 21570] pre_invocations(0)
+[T 00:16:29 21570] post_invocations(0)
+[T 00:16:29 21570] trace_languages(1): [java]
+[T 00:16:29 21570] Initializing tracer in Lua mode.
+[T 00:16:29 21570] Initialising tags...
+[T 00:16:29 21570] ID set to 0000000000005442_0000000000000005 (parent 0000000000005442_0000000000000004)
+[T 00:16:29 21570] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 00:16:29 21570] Lua: === Intercepted call to /bin/bash ===
+[T 00:16:29 21570] Executing the following tracer actions:
+[T 00:16:29 21570] Tracer actions:
+[T 00:16:29 21570] pre_invocations(0)
+[T 00:16:29 21570] post_invocations(0)
+[T 00:16:29 21570] trace_languages(1): [java]
+[T 00:16:29 21581] Attempting to switch stdout/stderr to 3...
+/Users/tinny/Academics/MastersProject/RunningExample/psychic-signatures-master/codeQLDatabase/working/copy-root/000001F5/usr/bin/uname.semmle.0000544C.slice.x86_64: replacing existing signature
+[T 00:16:29 21580] Initializing tracer in Lua mode.
+[T 00:16:29 21580] Initialising tags...
+[T 00:16:29 21580] ID set to 000000000000544C_0000000000000001 (parent 0000000000005442_0000000000000005)
+[T 00:16:29 21580] ==== Candidate to intercept: /usr/bin/uname (canonical: /usr/bin/uname) ====
+[T 00:16:29 21580] Lua: === Intercepted call to /usr/bin/uname ===
+[T 00:16:29 21580] Executing the following tracer actions:
+[T 00:16:29 21580] Tracer actions:
+[T 00:16:29 21580] pre_invocations(0)
+[T 00:16:29 21580] post_invocations(0)
+[T 00:16:29 21580] trace_languages(1): [java]
+[T 00:16:29 21589] Attempting to switch stdout/stderr to 3...
+[T 00:16:29 21591] Attempting to switch stdout/stderr to 3...
+[T 00:16:29 21592] Attempting to switch stdout/stderr to 3...
+/Users/tinny/Academics/MastersProject/RunningExample/psychic-signatures-master/codeQLDatabase/working/copy-root/000001F5/usr/bin/xargs.semmle.00005453.slice.x86_64: replacing existing signature
+/Users/tinny/Academics/MastersProject/RunningExample/psychic-signatures-master/codeQLDatabase/working/copy-root/000001F5/usr/bin/sed.semmle.00005454.slice.x86_64: replacing existing signature
+/Users/tinny/Academics/MastersProject/RunningExample/psychic-signatures-master/codeQLDatabase/working/copy-root/000001F5/usr/bin/tr.semmle.00005456.slice.x86_64: replacing existing signature
+[T 00:16:29 21587] Initializing tracer in Lua mode.
+[T 00:16:29 21587] Initialising tags...
+[T 00:16:29 21587] ID set to 0000000000005453_0000000000000001 (parent 0000000000005442_0000000000000005)
+[T 00:16:29 21587] ==== Candidate to intercept: /usr/bin/xargs (canonical: /usr/bin/xargs) ====
+[T 00:16:29 21587] Lua: === Intercepted call to /usr/bin/xargs ===
+[T 00:16:29 21587] Executing the following tracer actions:
+[T 00:16:29 21587] Tracer actions:
+[T 00:16:29 21587] pre_invocations(0)
+[T 00:16:29 21587] post_invocations(0)
+[T 00:16:29 21587] trace_languages(1): [java]
+[T 00:16:29 21600] Attempting to switch stdout/stderr to 3...
+/Users/tinny/Academics/MastersProject/RunningExample/psychic-signatures-master/codeQLDatabase/working/copy-root/000001F5/bin/echo.semmle.00005453.slice.x86_64: replacing existing signature
+[T 00:16:29 21588] Initializing tracer in Lua mode.
+[T 00:16:29 21588] Initialising tags...
+[T 00:16:29 21588] ID set to 0000000000005454_0000000000000001 (parent 0000000000005442_0000000000000005)
+[T 00:16:29 21588] ==== Candidate to intercept: /usr/bin/sed (canonical: /usr/bin/sed) ====
+[T 00:16:29 21588] Lua: === Intercepted call to /usr/bin/sed ===
+[T 00:16:29 21588] Executing the following tracer actions:
+[T 00:16:29 21588] Tracer actions:
+[T 00:16:29 21588] pre_invocations(0)
+[T 00:16:29 21588] post_invocations(0)
+[T 00:16:29 21588] trace_languages(1): [java]
+[T 00:16:29 21590] Initializing tracer in Lua mode.
+[T 00:16:29 21590] Initialising tags...
+[T 00:16:29 21590] ID set to 0000000000005456_0000000000000001 (parent 0000000000005442_0000000000000005)
+[T 00:16:29 21590] ==== Candidate to intercept: /usr/bin/tr (canonical: /usr/bin/tr) ====
+[T 00:16:29 21590] Lua: === Intercepted call to /usr/bin/tr ===
+[T 00:16:29 21590] Executing the following tracer actions:
+[T 00:16:29 21590] Tracer actions:
+[T 00:16:29 21590] pre_invocations(0)
+[T 00:16:29 21590] post_invocations(0)
+[T 00:16:29 21590] trace_languages(1): [java]
+[T 00:16:29 21604] Initializing tracer in Lua mode.
+[T 00:16:29 21604] Initialising tags...
+[T 00:16:29 21604] ID set to 0000000000005464_0000000000000001 (parent 0000000000005453_0000000000000001)
+[T 00:16:29 21604] ==== Candidate to intercept: /bin/echo (canonical: /bin/echo) ====
+[T 00:16:29 21604] Lua: === Intercepted call to /bin/echo ===
+[T 00:16:29 21604] Executing the following tracer actions:
+[T 00:16:29 21604] Tracer actions:
+[T 00:16:29 21604] pre_invocations(0)
+[T 00:16:29 21604] post_invocations(0)
+[T 00:16:29 21604] trace_languages(1): [java]
+[T 00:16:29 21607] Initializing tracer in Lua mode.
+[T 00:16:29 21607] Initialising tags...
+[T 00:16:29 21607] ID set to 0000000000005467_0000000000000001 (parent 0000000000005453_0000000000000001)
+[T 00:16:29 21607] ==== Candidate to intercept: /bin/echo (canonical: /bin/echo) ====
+[T 00:16:29 21607] Lua: === Intercepted call to /bin/echo ===
+[T 00:16:29 21607] Executing the following tracer actions:
+[T 00:16:29 21607] Tracer actions:
+[T 00:16:29 21607] pre_invocations(0)
+[T 00:16:29 21607] post_invocations(0)
+[T 00:16:29 21607] trace_languages(1): [java]
+[T 00:16:29 21608] Attempting to switch stdout/stderr to 3...
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/tinny/Academics/MastersProject/RunningExample/psychic-signatures-master/codeQLDatabase/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/bin/java.semmle.00005442.slice.arm64
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/tinny/Academics/MastersProject/RunningExample/psychic-signatures-master/codeQLDatabase/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/bin/java.semmle.00005442.slice.arm64
+/Users/tinny/Academics/MastersProject/RunningExample/psychic-signatures-master/codeQLDatabase/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/bin/java.semmle.00005442.slice.arm64: replacing existing signature
+[T 00:16:30 21570] Initializing tracer in Lua mode.
+[T 00:16:30 21570] Initialising tags...
+[T 00:16:30 21570] ID set to 0000000000005442_0000000000000006 (parent 0000000000005442_0000000000000005)
+[T 00:16:30 21570] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/bin/java (canonical: /Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/bin/java) ====
+[T 00:16:30 21570] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk-17.0.2.jdk/contents/home/bin/java ===
+[T 00:16:30 21570] Executing the following tracer actions:
+[T 00:16:30 21570] Tracer actions:
+[T 00:16:30 21570] pre_invocations(0)
+[T 00:16:30 21570] post_invocations(0)
+[T 00:16:30 21570] trace_languages(1): [java]
+[T 00:16:30 21570] Passing through -javaagent:/Users/tinny/Academics/MastersProject/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental to underlying JVM.
+[T 00:16:30 21570] Passing through -Xbootclasspath/a:/Users/tinny/Academics/MastersProject/CodeQL/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 00:16:30 21570] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/tinny/Academics/MastersProject/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental' '-Xbootclasspath/a:/Users/tinny/Academics/MastersProject/CodeQL/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 00:16:30 21614] Attempting to switch stdout/stderr to 150...
+/Users/tinny/Academics/MastersProject/RunningExample/psychic-signatures-master/codeQLDatabase/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/lib/jspawnhelper.semmle.00005442.slice.arm64: replacing existing signature
+[T 00:16:30 21617] Initializing tracer in Lua mode.
+[T 00:16:30 21617] Initialising tags...
+[T 00:16:30 21617] ID set to 0000000000005471_0000000000000001 (parent 0000000000005442_0000000000000006)
+[T 00:16:30 21617] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/lib/jspawnhelper (canonical: /Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/lib/jspawnhelper) ====
+[T 00:16:30 21617] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk-17.0.2.jdk/contents/home/lib/jspawnhelper ===
+[T 00:16:30 21617] Executing the following tracer actions:
+[T 00:16:30 21617] Tracer actions:
+[T 00:16:30 21617] pre_invocations(0)
+[T 00:16:30 21617] post_invocations(0)
+[T 00:16:30 21617] trace_languages(1): [java]
+[T 00:16:30 21617] Initializing tracer in Lua mode.
+[T 00:16:30 21617] Initialising tags...
+[T 00:16:30 21617] ID set to 0000000000005471_0000000000000002 (parent 0000000000005471_0000000000000001)
+[T 00:16:30 21617] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/bin/java (canonical: /Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/bin/java) ====
+[T 00:16:30 21617] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk-17.0.2.jdk/contents/home/bin/java ===
+[T 00:16:30 21617] Executing the following tracer actions:
+[T 00:16:30 21617] Tracer actions:
+[T 00:16:30 21617] pre_invocations(0)
+[T 00:16:30 21617] post_invocations(0)
+[T 00:16:30 21617] trace_languages(1): [java]
+[T 00:16:30 21617] Passing through -javaagent:/Users/tinny/Academics/MastersProject/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental to underlying JVM.
+[T 00:16:30 21617] Passing through -Xbootclasspath/a:/Users/tinny/Academics/MastersProject/CodeQL/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 00:16:30 21617] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/tinny/Academics/MastersProject/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental' '-Xbootclasspath/a:/Users/tinny/Academics/MastersProject/CodeQL/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 00:16:32 21625] Initializing tracer in Lua mode.
+[T 00:16:32 21625] Initialising tags...
+[T 00:16:32 21625] ID set to 0000000000005479_0000000000000001 (parent 0000000000005471_0000000000000002)
+[T 00:16:32 21625] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/lib/jspawnhelper (canonical: /Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/lib/jspawnhelper) ====
+[T 00:16:32 21625] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk-17.0.2.jdk/contents/home/lib/jspawnhelper ===
+[T 00:16:32 21625] Executing the following tracer actions:
+[T 00:16:32 21625] Tracer actions:
+[T 00:16:32 21625] pre_invocations(0)
+[T 00:16:32 21625] post_invocations(0)
+[T 00:16:32 21625] trace_languages(1): [java]
+[T 00:16:32 21625] Initializing tracer in Lua mode.
+[T 00:16:32 21625] Initialising tags...
+[T 00:16:32 21625] ID set to 0000000000005479_0000000000000002 (parent 0000000000005479_0000000000000001)
+[T 00:16:32 21625] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/bin/java (canonical: /Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/bin/java) ====
+[T 00:16:32 21625] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk-17.0.2.jdk/contents/home/bin/java ===
+[T 00:16:32 21625] Executing the following tracer actions:
+[T 00:16:32 21625] Tracer actions:
+[T 00:16:32 21625] pre_invocations(0)
+[T 00:16:32 21625] post_invocations(0)
+[T 00:16:32 21625] trace_languages(1): [java]
+[T 00:16:32 21625] Passing through -javaagent:/Users/tinny/Academics/MastersProject/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental to underlying JVM.
+[T 00:16:32 21625] Passing through -Xbootclasspath/a:/Users/tinny/Academics/MastersProject/CodeQL/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 00:16:33 21625] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/tinny/Academics/MastersProject/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental' '-Xbootclasspath/a:/Users/tinny/Academics/MastersProject/CodeQL/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 05:21:08 29724] CodeQL CLI version 2.10.5
+[T 05:21:08 29724] Initializing tracer in Lua mode.
+[T 05:21:08 29724] Initialising tags...
+[T 05:21:08 29724] ID set to 000000000000741C_0000000000000001 (parent root)
+[T 05:21:09 29724] Initializing tracer in Lua mode.
+[T 05:21:09 29724] Initialising tags...
+[T 05:21:09 29724] ID set to 000000000000741C_0000000000000002 (parent root)
+[T 05:21:09 29724] Warning: SEMMLE_EXEC and SEMMLE_EXECP not set. Falling back to path lookup on argv[0].
+[T 05:21:09 29724] ==== Candidate to intercept: /Users/tinny/Academics/MastersProject/CodeQL/codeql/tools/osx64/runner-osx (canonical: /Users/tinny/Academics/MastersProject/CodeQL/codeql/tools/osx64/runner-osx) ====
+[T 05:21:09 29724] Lua: === Intercepted call to /users/tinny/academics/mastersproject/codeql/codeql/tools/osx64/runner-osx ===
+[T 05:21:09 29724] Executing the following tracer actions:
+[T 05:21:09 29724] Tracer actions:
+[T 05:21:09 29724] pre_invocations(0)
+[T 05:21:09 29724] post_invocations(0)
+[T 05:21:09 29724] trace_languages(1): [java]
+[T 05:21:09 29725] Attempting to switch stdout/stderr to 3...
+/Users/tinny/Academics/MastersProject/RunningExample/psychic-signatures-master/codeQLDatabase/working/copy-root/000001F5/bin/bash.semmle.0000741C.slice.x86_64: replacing existing signature
+[T 05:21:10 29724] Initializing tracer in Lua mode.
+[T 05:21:10 29724] Initialising tags...
+[T 05:21:10 29724] ID set to 000000000000741C_0000000000000003 (parent 000000000000741C_0000000000000002)
+[T 05:21:10 29724] ==== Candidate to intercept: /opt/homebrew/bin/gradle (canonical: /opt/homebrew/Cellar/gradle/7.5.1_1/bin/gradle) ====
+[T 05:21:10 29724] Lua: === Intercepted call to /opt/homebrew/cellar/gradle/7.5.1_1/bin/gradle ===
+[T 05:21:10 29724] Executing the following tracer actions:
+[T 05:21:10 29724] Tracer actions:
+[T 05:21:10 29724] pre_invocations(0)
+[T 05:21:10 29724] post_invocations(0)
+[T 05:21:10 29724] trace_languages(1): [java]
+[T 05:21:10 29730] Attempting to switch stdout/stderr to 3...
+/Users/tinny/Academics/MastersProject/RunningExample/psychic-signatures-master/codeQLDatabase/working/copy-root/000001F5/bin/sh.semmle.0000741C.slice.x86_64: replacing existing signature
+[T 05:21:10 29724] Initializing tracer in Lua mode.
+[T 05:21:10 29724] Initialising tags...
+[T 05:21:10 29724] ID set to 000000000000741C_0000000000000004 (parent 000000000000741C_0000000000000003)
+[T 05:21:10 29724] ==== Candidate to intercept: /opt/homebrew/Cellar/gradle/7.5.1_1/libexec/bin/gradle (canonical: /opt/homebrew/Cellar/gradle/7.5.1_1/libexec/bin/gradle) ====
+[T 05:21:10 29724] Lua: === Intercepted call to /opt/homebrew/cellar/gradle/7.5.1_1/libexec/bin/gradle ===
+[T 05:21:10 29724] Executing the following tracer actions:
+[T 05:21:10 29724] Tracer actions:
+[T 05:21:10 29724] pre_invocations(0)
+[T 05:21:10 29724] post_invocations(0)
+[T 05:21:10 29724] trace_languages(1): [java]
+[T 05:21:10 29724] Initializing tracer in Lua mode.
+[T 05:21:10 29724] Initialising tags...
+[T 05:21:10 29724] ID set to 000000000000741C_0000000000000005 (parent 000000000000741C_0000000000000004)
+[T 05:21:10 29724] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 05:21:10 29724] Lua: === Intercepted call to /bin/bash ===
+[T 05:21:10 29724] Executing the following tracer actions:
+[T 05:21:10 29724] Tracer actions:
+[T 05:21:10 29724] pre_invocations(0)
+[T 05:21:10 29724] post_invocations(0)
+[T 05:21:10 29724] trace_languages(1): [java]
+[T 05:21:10 29736] Attempting to switch stdout/stderr to 3...
+/Users/tinny/Academics/MastersProject/RunningExample/psychic-signatures-master/codeQLDatabase/working/copy-root/000001F5/usr/bin/uname.semmle.00007427.slice.x86_64: replacing existing signature
+[T 05:21:11 29735] Initializing tracer in Lua mode.
+[T 05:21:11 29735] Initialising tags...
+[T 05:21:11 29735] ID set to 0000000000007427_0000000000000001 (parent 000000000000741C_0000000000000005)
+[T 05:21:11 29735] ==== Candidate to intercept: /usr/bin/uname (canonical: /usr/bin/uname) ====
+[T 05:21:11 29735] Lua: === Intercepted call to /usr/bin/uname ===
+[T 05:21:11 29735] Executing the following tracer actions:
+[T 05:21:11 29735] Tracer actions:
+[T 05:21:11 29735] pre_invocations(0)
+[T 05:21:11 29735] post_invocations(0)
+[T 05:21:11 29735] trace_languages(1): [java]
+[T 05:21:11 29744] Attempting to switch stdout/stderr to 3...
+[T 05:21:11 29746] Attempting to switch stdout/stderr to 3...
+[T 05:21:11 29747] Attempting to switch stdout/stderr to 3...
+/Users/tinny/Academics/MastersProject/RunningExample/psychic-signatures-master/codeQLDatabase/working/copy-root/000001F5/usr/bin/sed.semmle.0000742F.slice.x86_64: replacing existing signature
+/Users/tinny/Academics/MastersProject/RunningExample/psychic-signatures-master/codeQLDatabase/working/copy-root/000001F5/usr/bin/xargs.semmle.0000742E.slice.x86_64: replacing existing signature
+/Users/tinny/Academics/MastersProject/RunningExample/psychic-signatures-master/codeQLDatabase/working/copy-root/000001F5/usr/bin/tr.semmle.00007431.slice.x86_64: replacing existing signature
+[T 05:21:11 29743] Initializing tracer in Lua mode.
+[T 05:21:11 29743] Initialising tags...
+[T 05:21:11 29743] ID set to 000000000000742F_0000000000000001 (parent 000000000000741C_0000000000000005)
+[T 05:21:11 29743] ==== Candidate to intercept: /usr/bin/sed (canonical: /usr/bin/sed) ====
+[T 05:21:11 29743] Lua: === Intercepted call to /usr/bin/sed ===
+[T 05:21:11 29743] Executing the following tracer actions:
+[T 05:21:11 29743] Tracer actions:
+[T 05:21:11 29743] pre_invocations(0)
+[T 05:21:11 29743] post_invocations(0)
+[T 05:21:11 29743] trace_languages(1): [java]
+[T 05:21:11 29742] Initializing tracer in Lua mode.
+[T 05:21:11 29742] Initialising tags...
+[T 05:21:11 29742] ID set to 000000000000742E_0000000000000001 (parent 000000000000741C_0000000000000005)
+[T 05:21:11 29742] ==== Candidate to intercept: /usr/bin/xargs (canonical: /usr/bin/xargs) ====
+[T 05:21:11 29742] Lua: === Intercepted call to /usr/bin/xargs ===
+[T 05:21:11 29742] Executing the following tracer actions:
+[T 05:21:11 29742] Tracer actions:
+[T 05:21:11 29742] pre_invocations(0)
+[T 05:21:11 29742] post_invocations(0)
+[T 05:21:11 29742] trace_languages(1): [java]
+[T 05:21:11 29756] Attempting to switch stdout/stderr to 3...
+/Users/tinny/Academics/MastersProject/RunningExample/psychic-signatures-master/codeQLDatabase/working/copy-root/000001F5/bin/echo.semmle.0000742E.slice.x86_64: replacing existing signature
+[T 05:21:11 29745] Initializing tracer in Lua mode.
+[T 05:21:11 29745] Initialising tags...
+[T 05:21:11 29745] ID set to 0000000000007431_0000000000000001 (parent 000000000000741C_0000000000000005)
+[T 05:21:11 29745] ==== Candidate to intercept: /usr/bin/tr (canonical: /usr/bin/tr) ====
+[T 05:21:11 29745] Lua: === Intercepted call to /usr/bin/tr ===
+[T 05:21:11 29745] Executing the following tracer actions:
+[T 05:21:11 29745] Tracer actions:
+[T 05:21:11 29745] pre_invocations(0)
+[T 05:21:11 29745] post_invocations(0)
+[T 05:21:11 29745] trace_languages(1): [java]
+[T 05:21:11 29760] Initializing tracer in Lua mode.
+[T 05:21:11 29760] Initialising tags...
+[T 05:21:11 29760] ID set to 0000000000007440_0000000000000001 (parent 000000000000742E_0000000000000001)
+[T 05:21:11 29760] ==== Candidate to intercept: /bin/echo (canonical: /bin/echo) ====
+[T 05:21:11 29760] Lua: === Intercepted call to /bin/echo ===
+[T 05:21:11 29760] Executing the following tracer actions:
+[T 05:21:11 29760] Tracer actions:
+[T 05:21:11 29760] pre_invocations(0)
+[T 05:21:11 29760] post_invocations(0)
+[T 05:21:11 29760] trace_languages(1): [java]
+[T 05:21:12 29762] Initializing tracer in Lua mode.
+[T 05:21:12 29762] Initialising tags...
+[T 05:21:12 29762] ID set to 0000000000007442_0000000000000001 (parent 000000000000742E_0000000000000001)
+[T 05:21:12 29762] ==== Candidate to intercept: /bin/echo (canonical: /bin/echo) ====
+[T 05:21:12 29762] Lua: === Intercepted call to /bin/echo ===
+[T 05:21:12 29762] Executing the following tracer actions:
+[T 05:21:12 29762] Tracer actions:
+[T 05:21:12 29762] pre_invocations(0)
+[T 05:21:12 29762] post_invocations(0)
+[T 05:21:12 29762] trace_languages(1): [java]
+[T 05:21:12 29763] Attempting to switch stdout/stderr to 3...
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/tinny/Academics/MastersProject/RunningExample/psychic-signatures-master/codeQLDatabase/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/bin/java.semmle.0000741C.slice.arm64
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/tinny/Academics/MastersProject/RunningExample/psychic-signatures-master/codeQLDatabase/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/bin/java.semmle.0000741C.slice.arm64
+/Users/tinny/Academics/MastersProject/RunningExample/psychic-signatures-master/codeQLDatabase/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/bin/java.semmle.0000741C.slice.arm64: replacing existing signature
+[T 05:21:12 29724] Initializing tracer in Lua mode.
+[T 05:21:12 29724] Initialising tags...
+[T 05:21:12 29724] ID set to 000000000000741C_0000000000000006 (parent 000000000000741C_0000000000000005)
+[T 05:21:12 29724] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/bin/java (canonical: /Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/bin/java) ====
+[T 05:21:12 29724] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk-17.0.2.jdk/contents/home/bin/java ===
+[T 05:21:12 29724] Executing the following tracer actions:
+[T 05:21:12 29724] Tracer actions:
+[T 05:21:12 29724] pre_invocations(0)
+[T 05:21:12 29724] post_invocations(0)
+[T 05:21:12 29724] trace_languages(1): [java]
+[T 05:21:12 29724] Passing through -javaagent:/Users/tinny/Academics/MastersProject/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental to underlying JVM.
+[T 05:21:12 29724] Passing through -Xbootclasspath/a:/Users/tinny/Academics/MastersProject/CodeQL/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 05:21:12 29724] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/tinny/Academics/MastersProject/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental' '-Xbootclasspath/a:/Users/tinny/Academics/MastersProject/CodeQL/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 05:21:12 29776] Attempting to switch stdout/stderr to 150...
+/Users/tinny/Academics/MastersProject/RunningExample/psychic-signatures-master/codeQLDatabase/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/lib/jspawnhelper.semmle.0000741C.slice.arm64: replacing existing signature
+[T 05:21:13 29779] Initializing tracer in Lua mode.
+[T 05:21:13 29779] Initialising tags...
+[T 05:21:13 29779] ID set to 0000000000007453_0000000000000001 (parent 000000000000741C_0000000000000006)
+[T 05:21:13 29779] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/lib/jspawnhelper (canonical: /Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/lib/jspawnhelper) ====
+[T 05:21:13 29779] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk-17.0.2.jdk/contents/home/lib/jspawnhelper ===
+[T 05:21:13 29779] Executing the following tracer actions:
+[T 05:21:13 29779] Tracer actions:
+[T 05:21:13 29779] pre_invocations(0)
+[T 05:21:13 29779] post_invocations(0)
+[T 05:21:13 29779] trace_languages(1): [java]
+[T 05:21:13 29779] Initializing tracer in Lua mode.
+[T 05:21:13 29779] Initialising tags...
+[T 05:21:13 29779] ID set to 0000000000007453_0000000000000002 (parent 0000000000007453_0000000000000001)
+[T 05:21:13 29779] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/bin/java (canonical: /Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/bin/java) ====
+[T 05:21:13 29779] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk-17.0.2.jdk/contents/home/bin/java ===
+[T 05:21:13 29779] Executing the following tracer actions:
+[T 05:21:13 29779] Tracer actions:
+[T 05:21:13 29779] pre_invocations(0)
+[T 05:21:13 29779] post_invocations(0)
+[T 05:21:13 29779] trace_languages(1): [java]
+[T 05:21:13 29779] Passing through -javaagent:/Users/tinny/Academics/MastersProject/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental to underlying JVM.
+[T 05:21:13 29779] Passing through -Xbootclasspath/a:/Users/tinny/Academics/MastersProject/CodeQL/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 05:21:13 29779] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/tinny/Academics/MastersProject/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental' '-Xbootclasspath/a:/Users/tinny/Academics/MastersProject/CodeQL/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 05:21:16 29784] Initializing tracer in Lua mode.
+[T 05:21:16 29784] Initialising tags...
+[T 05:21:16 29784] ID set to 0000000000007458_0000000000000001 (parent 0000000000007453_0000000000000002)
+[T 05:21:16 29784] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/lib/jspawnhelper (canonical: /Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/lib/jspawnhelper) ====
+[T 05:21:16 29784] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk-17.0.2.jdk/contents/home/lib/jspawnhelper ===
+[T 05:21:16 29784] Executing the following tracer actions:
+[T 05:21:16 29784] Tracer actions:
+[T 05:21:16 29784] pre_invocations(0)
+[T 05:21:16 29784] post_invocations(0)
+[T 05:21:16 29784] trace_languages(1): [java]
+[T 05:21:16 29784] Initializing tracer in Lua mode.
+[T 05:21:16 29784] Initialising tags...
+[T 05:21:16 29784] ID set to 0000000000007458_0000000000000002 (parent 0000000000007458_0000000000000001)
+[T 05:21:16 29784] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/bin/java (canonical: /Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/bin/java) ====
+[T 05:21:16 29784] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk-17.0.2.jdk/contents/home/bin/java ===
+[T 05:21:16 29784] Executing the following tracer actions:
+[T 05:21:16 29784] Tracer actions:
+[T 05:21:16 29784] pre_invocations(0)
+[T 05:21:16 29784] post_invocations(0)
+[T 05:21:16 29784] trace_languages(1): [java]
+[T 05:21:16 29784] Passing through -javaagent:/Users/tinny/Academics/MastersProject/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental to underlying JVM.
+[T 05:21:16 29784] Passing through -Xbootclasspath/a:/Users/tinny/Academics/MastersProject/CodeQL/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 05:21:16 29784] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/tinny/Academics/MastersProject/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental' '-Xbootclasspath/a:/Users/tinny/Academics/MastersProject/CodeQL/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 05:23:42 29926] CodeQL CLI version 2.10.5
+[T 05:23:42 29926] Initializing tracer in Lua mode.
+[T 05:23:42 29926] Initialising tags...
+[T 05:23:42 29926] ID set to 00000000000074E6_0000000000000001 (parent root)
+[T 05:23:42 29926] Initializing tracer in Lua mode.
+[T 05:23:42 29926] Initialising tags...
+[T 05:23:42 29926] ID set to 00000000000074E6_0000000000000002 (parent root)
+[T 05:23:42 29926] Warning: SEMMLE_EXEC and SEMMLE_EXECP not set. Falling back to path lookup on argv[0].
+[T 05:23:42 29926] ==== Candidate to intercept: /Users/tinny/Academics/MastersProject/CodeQL/codeql/tools/osx64/runner-osx (canonical: /Users/tinny/Academics/MastersProject/CodeQL/codeql/tools/osx64/runner-osx) ====
+[T 05:23:42 29926] Lua: === Intercepted call to /users/tinny/academics/mastersproject/codeql/codeql/tools/osx64/runner-osx ===
+[T 05:23:42 29926] Executing the following tracer actions:
+[T 05:23:42 29926] Tracer actions:
+[T 05:23:42 29926] pre_invocations(0)
+[T 05:23:42 29926] post_invocations(0)
+[T 05:23:42 29926] trace_languages(1): [java]
+[T 05:23:42 29927] Attempting to switch stdout/stderr to 3...
+/Users/tinny/Academics/MastersProject/RunningExample/psychic-signatures-master/codeQLDatabase/working/copy-root/000001F5/bin/bash.semmle.000074E6.slice.x86_64: replacing existing signature
+[T 05:23:43 29926] Initializing tracer in Lua mode.
+[T 05:23:43 29926] Initialising tags...
+[T 05:23:43 29926] ID set to 00000000000074E6_0000000000000003 (parent 00000000000074E6_0000000000000002)
+[T 05:23:43 29926] ==== Candidate to intercept: /opt/homebrew/bin/gradle (canonical: /opt/homebrew/Cellar/gradle/7.5.1_1/bin/gradle) ====
+[T 05:23:43 29926] Lua: === Intercepted call to /opt/homebrew/cellar/gradle/7.5.1_1/bin/gradle ===
+[T 05:23:43 29926] Executing the following tracer actions:
+[T 05:23:43 29926] Tracer actions:
+[T 05:23:43 29926] pre_invocations(0)
+[T 05:23:43 29926] post_invocations(0)
+[T 05:23:43 29926] trace_languages(1): [java]
+[T 05:23:43 29933] Attempting to switch stdout/stderr to 3...
+/Users/tinny/Academics/MastersProject/RunningExample/psychic-signatures-master/codeQLDatabase/working/copy-root/000001F5/bin/sh.semmle.000074E6.slice.x86_64: replacing existing signature
+[T 05:23:43 29926] Initializing tracer in Lua mode.
+[T 05:23:43 29926] Initialising tags...
+[T 05:23:43 29926] ID set to 00000000000074E6_0000000000000004 (parent 00000000000074E6_0000000000000003)
+[T 05:23:43 29926] ==== Candidate to intercept: /opt/homebrew/Cellar/gradle/7.5.1_1/libexec/bin/gradle (canonical: /opt/homebrew/Cellar/gradle/7.5.1_1/libexec/bin/gradle) ====
+[T 05:23:43 29926] Lua: === Intercepted call to /opt/homebrew/cellar/gradle/7.5.1_1/libexec/bin/gradle ===
+[T 05:23:43 29926] Executing the following tracer actions:
+[T 05:23:43 29926] Tracer actions:
+[T 05:23:43 29926] pre_invocations(0)
+[T 05:23:43 29926] post_invocations(0)
+[T 05:23:43 29926] trace_languages(1): [java]
+[T 05:23:43 29926] Initializing tracer in Lua mode.
+[T 05:23:43 29926] Initialising tags...
+[T 05:23:43 29926] ID set to 00000000000074E6_0000000000000005 (parent 00000000000074E6_0000000000000004)
+[T 05:23:43 29926] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 05:23:43 29926] Lua: === Intercepted call to /bin/bash ===
+[T 05:23:43 29926] Executing the following tracer actions:
+[T 05:23:43 29926] Tracer actions:
+[T 05:23:43 29926] pre_invocations(0)
+[T 05:23:43 29926] post_invocations(0)
+[T 05:23:43 29926] trace_languages(1): [java]
+[T 05:23:43 29939] Attempting to switch stdout/stderr to 3...
+/Users/tinny/Academics/MastersProject/RunningExample/psychic-signatures-master/codeQLDatabase/working/copy-root/000001F5/usr/bin/uname.semmle.000074F2.slice.x86_64: replacing existing signature
+[T 05:23:43 29938] Initializing tracer in Lua mode.
+[T 05:23:43 29938] Initialising tags...
+[T 05:23:43 29938] ID set to 00000000000074F2_0000000000000001 (parent 00000000000074E6_0000000000000005)
+[T 05:23:43 29938] ==== Candidate to intercept: /usr/bin/uname (canonical: /usr/bin/uname) ====
+[T 05:23:43 29938] Lua: === Intercepted call to /usr/bin/uname ===
+[T 05:23:43 29938] Executing the following tracer actions:
+[T 05:23:43 29938] Tracer actions:
+[T 05:23:43 29938] pre_invocations(0)
+[T 05:23:43 29938] post_invocations(0)
+[T 05:23:43 29938] trace_languages(1): [java]
+[T 05:23:43 29947] Attempting to switch stdout/stderr to 3...
+[T 05:23:43 29949] Attempting to switch stdout/stderr to 3...
+[T 05:23:43 29950] Attempting to switch stdout/stderr to 3...
+/Users/tinny/Academics/MastersProject/RunningExample/psychic-signatures-master/codeQLDatabase/working/copy-root/000001F5/usr/bin/xargs.semmle.000074F9.slice.x86_64: replacing existing signature
+/Users/tinny/Academics/MastersProject/RunningExample/psychic-signatures-master/codeQLDatabase/working/copy-root/000001F5/usr/bin/sed.semmle.000074FA.slice.x86_64: replacing existing signature
+/Users/tinny/Academics/MastersProject/RunningExample/psychic-signatures-master/codeQLDatabase/working/copy-root/000001F5/usr/bin/tr.semmle.000074FC.slice.x86_64: replacing existing signature
+[T 05:23:43 29945] Initializing tracer in Lua mode.
+[T 05:23:43 29945] Initialising tags...
+[T 05:23:43 29945] ID set to 00000000000074F9_0000000000000001 (parent 00000000000074E6_0000000000000005)
+[T 05:23:43 29945] ==== Candidate to intercept: /usr/bin/xargs (canonical: /usr/bin/xargs) ====
+[T 05:23:43 29945] Lua: === Intercepted call to /usr/bin/xargs ===
+[T 05:23:43 29945] Executing the following tracer actions:
+[T 05:23:43 29945] Tracer actions:
+[T 05:23:43 29945] pre_invocations(0)
+[T 05:23:43 29945] post_invocations(0)
+[T 05:23:43 29945] trace_languages(1): [java]
+[T 05:23:43 29958] Attempting to switch stdout/stderr to 3...
+/Users/tinny/Academics/MastersProject/RunningExample/psychic-signatures-master/codeQLDatabase/working/copy-root/000001F5/bin/echo.semmle.000074F9.slice.x86_64: replacing existing signature
+[T 05:23:43 29948] Initializing tracer in Lua mode.
+[T 05:23:43 29948] Initialising tags...
+[T 05:23:43 29948] ID set to 00000000000074FC_0000000000000001 (parent 00000000000074E6_0000000000000005)
+[T 05:23:43 29948] ==== Candidate to intercept: /usr/bin/tr (canonical: /usr/bin/tr) ====
+[T 05:23:43 29948] Lua: === Intercepted call to /usr/bin/tr ===
+[T 05:23:43 29948] Executing the following tracer actions:
+[T 05:23:43 29948] Tracer actions:
+[T 05:23:43 29948] pre_invocations(0)
+[T 05:23:43 29948] post_invocations(0)
+[T 05:23:43 29948] trace_languages(1): [java]
+[T 05:23:43 29946] Initializing tracer in Lua mode.
+[T 05:23:43 29946] Initialising tags...
+[T 05:23:43 29946] ID set to 00000000000074FA_0000000000000001 (parent 00000000000074E6_0000000000000005)
+[T 05:23:43 29946] ==== Candidate to intercept: /usr/bin/sed (canonical: /usr/bin/sed) ====
+[T 05:23:43 29946] Lua: === Intercepted call to /usr/bin/sed ===
+[T 05:23:43 29946] Executing the following tracer actions:
+[T 05:23:43 29946] Tracer actions:
+[T 05:23:43 29946] pre_invocations(0)
+[T 05:23:43 29946] post_invocations(0)
+[T 05:23:43 29946] trace_languages(1): [java]
+[T 05:23:43 29962] Initializing tracer in Lua mode.
+[T 05:23:43 29962] Initialising tags...
+[T 05:23:43 29962] ID set to 000000000000750A_0000000000000001 (parent 00000000000074F9_0000000000000001)
+[T 05:23:43 29962] ==== Candidate to intercept: /bin/echo (canonical: /bin/echo) ====
+[T 05:23:43 29962] Lua: === Intercepted call to /bin/echo ===
+[T 05:23:43 29962] Executing the following tracer actions:
+[T 05:23:43 29962] Tracer actions:
+[T 05:23:43 29962] pre_invocations(0)
+[T 05:23:43 29962] post_invocations(0)
+[T 05:23:43 29962] trace_languages(1): [java]
+[T 05:23:43 29965] Initializing tracer in Lua mode.
+[T 05:23:43 29965] Initialising tags...
+[T 05:23:43 29965] ID set to 000000000000750D_0000000000000001 (parent 00000000000074F9_0000000000000001)
+[T 05:23:43 29965] ==== Candidate to intercept: /bin/echo (canonical: /bin/echo) ====
+[T 05:23:43 29965] Lua: === Intercepted call to /bin/echo ===
+[T 05:23:43 29965] Executing the following tracer actions:
+[T 05:23:43 29965] Tracer actions:
+[T 05:23:43 29965] pre_invocations(0)
+[T 05:23:43 29965] post_invocations(0)
+[T 05:23:43 29965] trace_languages(1): [java]
+[T 05:23:43 29966] Attempting to switch stdout/stderr to 3...
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/tinny/Academics/MastersProject/RunningExample/psychic-signatures-master/codeQLDatabase/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/bin/java.semmle.000074E6.slice.arm64
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/tinny/Academics/MastersProject/RunningExample/psychic-signatures-master/codeQLDatabase/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/bin/java.semmle.000074E6.slice.arm64
+/Users/tinny/Academics/MastersProject/RunningExample/psychic-signatures-master/codeQLDatabase/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/bin/java.semmle.000074E6.slice.arm64: replacing existing signature
+[T 05:23:43 29926] Initializing tracer in Lua mode.
+[T 05:23:43 29926] Initialising tags...
+[T 05:23:43 29926] ID set to 00000000000074E6_0000000000000006 (parent 00000000000074E6_0000000000000005)
+[T 05:23:43 29926] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/bin/java (canonical: /Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/bin/java) ====
+[T 05:23:43 29926] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk-17.0.2.jdk/contents/home/bin/java ===
+[T 05:23:43 29926] Executing the following tracer actions:
+[T 05:23:43 29926] Tracer actions:
+[T 05:23:43 29926] pre_invocations(0)
+[T 05:23:43 29926] post_invocations(0)
+[T 05:23:43 29926] trace_languages(1): [java]
+[T 05:23:43 29926] Passing through -javaagent:/Users/tinny/Academics/MastersProject/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental to underlying JVM.
+[T 05:23:43 29926] Passing through -Xbootclasspath/a:/Users/tinny/Academics/MastersProject/CodeQL/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 05:23:44 29926] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/tinny/Academics/MastersProject/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental' '-Xbootclasspath/a:/Users/tinny/Academics/MastersProject/CodeQL/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 05:23:44 29972] Attempting to switch stdout/stderr to 150...
+/Users/tinny/Academics/MastersProject/RunningExample/psychic-signatures-master/codeQLDatabase/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/lib/jspawnhelper.semmle.000074E6.slice.arm64: replacing existing signature
+[T 05:23:44 29975] Initializing tracer in Lua mode.
+[T 05:23:44 29975] Initialising tags...
+[T 05:23:44 29975] ID set to 0000000000007517_0000000000000001 (parent 00000000000074E6_0000000000000006)
+[T 05:23:44 29975] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/lib/jspawnhelper (canonical: /Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/lib/jspawnhelper) ====
+[T 05:23:44 29975] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk-17.0.2.jdk/contents/home/lib/jspawnhelper ===
+[T 05:23:44 29975] Executing the following tracer actions:
+[T 05:23:44 29975] Tracer actions:
+[T 05:23:44 29975] pre_invocations(0)
+[T 05:23:44 29975] post_invocations(0)
+[T 05:23:44 29975] trace_languages(1): [java]
+[T 05:23:44 29975] Initializing tracer in Lua mode.
+[T 05:23:44 29975] Initialising tags...
+[T 05:23:44 29975] ID set to 0000000000007517_0000000000000002 (parent 0000000000007517_0000000000000001)
+[T 05:23:44 29975] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/bin/java (canonical: /Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/bin/java) ====
+[T 05:23:44 29975] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk-17.0.2.jdk/contents/home/bin/java ===
+[T 05:23:44 29975] Executing the following tracer actions:
+[T 05:23:44 29975] Tracer actions:
+[T 05:23:44 29975] pre_invocations(0)
+[T 05:23:44 29975] post_invocations(0)
+[T 05:23:44 29975] trace_languages(1): [java]
+[T 05:23:44 29975] Passing through -javaagent:/Users/tinny/Academics/MastersProject/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental to underlying JVM.
+[T 05:23:44 29975] Passing through -Xbootclasspath/a:/Users/tinny/Academics/MastersProject/CodeQL/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 05:23:44 29975] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/tinny/Academics/MastersProject/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental' '-Xbootclasspath/a:/Users/tinny/Academics/MastersProject/CodeQL/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 05:23:46 29977] Initializing tracer in Lua mode.
+[T 05:23:46 29977] Initialising tags...
+[T 05:23:46 29977] ID set to 0000000000007519_0000000000000001 (parent 0000000000007517_0000000000000002)
+[T 05:23:46 29977] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/lib/jspawnhelper (canonical: /Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/lib/jspawnhelper) ====
+[T 05:23:46 29977] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk-17.0.2.jdk/contents/home/lib/jspawnhelper ===
+[T 05:23:46 29977] Executing the following tracer actions:
+[T 05:23:46 29977] Tracer actions:
+[T 05:23:46 29977] pre_invocations(0)
+[T 05:23:46 29977] post_invocations(0)
+[T 05:23:46 29977] trace_languages(1): [java]
+[T 05:23:46 29977] Initializing tracer in Lua mode.
+[T 05:23:46 29977] Initialising tags...
+[T 05:23:46 29977] ID set to 0000000000007519_0000000000000002 (parent 0000000000007519_0000000000000001)
+[T 05:23:46 29977] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/bin/java (canonical: /Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/bin/java) ====
+[T 05:23:46 29977] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk-17.0.2.jdk/contents/home/bin/java ===
+[T 05:23:46 29977] Executing the following tracer actions:
+[T 05:23:46 29977] Tracer actions:
+[T 05:23:46 29977] pre_invocations(0)
+[T 05:23:46 29977] post_invocations(0)
+[T 05:23:46 29977] trace_languages(1): [java]
+[T 05:23:46 29977] Passing through -javaagent:/Users/tinny/Academics/MastersProject/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental to underlying JVM.
+[T 05:23:46 29977] Passing through -Xbootclasspath/a:/Users/tinny/Academics/MastersProject/CodeQL/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 05:23:46 29977] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/tinny/Academics/MastersProject/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental' '-Xbootclasspath/a:/Users/tinny/Academics/MastersProject/CodeQL/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).

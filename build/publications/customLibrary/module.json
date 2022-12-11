@@ -1,0 +1,69 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "",
+    "module": "Gradle",
+    "version": "unspecified",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "Gradle-unspecified.jar",
+          "url": "Gradle-unspecified.jar",
+          "size": 952,
+          "sha512": "246647a56de23094bd0dc262a44e488afe0fafb8aae833dff5cbc5ca4d303bed94a5e93cc1e41fac2d2f3f82b283027060918cb4eb6fcbbc7aa343b6a50435c1",
+          "sha256": "b358fdb38db5492e5db87e3c6457e0510e4f3a697df4697f021306e33d4f9687",
+          "sha1": "b50a684de0a35059b2464515c92ba5b3cd5588db",
+          "md5": "c1836fb5592861838b0b252a4b70824a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "mysql",
+          "module": "mysql-connector-java",
+          "version": {
+            "requires": "8.0.27"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "Gradle-unspecified.jar",
+          "url": "Gradle-unspecified.jar",
+          "size": 952,
+          "sha512": "246647a56de23094bd0dc262a44e488afe0fafb8aae833dff5cbc5ca4d303bed94a5e93cc1e41fac2d2f3f82b283027060918cb4eb6fcbbc7aa343b6a50435c1",
+          "sha256": "b358fdb38db5492e5db87e3c6457e0510e4f3a697df4697f021306e33d4f9687",
+          "sha1": "b50a684de0a35059b2464515c92ba5b3cd5588db",
+          "md5": "c1836fb5592861838b0b252a4b70824a"
+        }
+      ]
+    }
+  ]
+}
